@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Canvas</title>
+</head>
+
+<body>
+
+    <canvas id="canvas1"></canvas>
+
+    <div class="controls">
+        <div class="container">
+            <div class="fl">
+                <div class="">
+                    <label for="radios" class="form-label">Radios</label>
+                    <input type="number" class="form-control radios" id="radios" placeholder="Radios" value="20" min="1"
+                        max="30">
+                </div>
+
+                <div class="">
+                    <label for="inset" class="form-label">Inset</label>
+                    <input type="number" class="form-control inset" id="inset" placeholder="Inset" value="4" min="2"
+                        max="12">
+
+                </div>
+
+                <div class="">
+
+                    <label for="n" class="form-label">N</label>
+                    <input type="number" class="form-control n" id="n" placeholder="N" value="7" min="1" max="50">
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-success download-btn"> <i class="bi bi-download"></i></button>
+
+            <button type="button" class="btn btn-primary set-btn"><i class="bi bi-pencil-square"></i></button>
+        </div>
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
